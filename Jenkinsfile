@@ -4,13 +4,6 @@ pipeline{
     agent { label "agent1"}
     
     stages{
-        stage("Greet"){
-            steps{
-                script{
-                    hello()
-                }
-            }
-        }
         stage("Code"){
             steps{
                 script{
